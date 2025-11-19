@@ -1,4 +1,3 @@
-import { P } from "../../components/parágrafo/styles";
 import Projeto from "../../components/Projeto";
 import Titulo from "../../components/título";
 import { Lista } from "./styles";

@@ -1,7 +1,7 @@
 import Avatar from "../../components/Avatar"
 import Paragrafo from "../../components/parágrafo"
 import Titulo from "../../components/título"
-import { Descricao, BotaoTema, SidebarContainer } from "./styles";
+import { Descricao, SidebarContainer } from "./styles";
 
 const Sidebar = () => {
   return (
@@ -13,7 +13,6 @@ const Sidebar = () => {
       natcsouzaIT
     </Paragrafo>
     <Descricao tipo="principal" fontSize={12}>Desenvolvedora Front-End</Descricao>
-    <BotaoTema>Trocar tema</BotaoTema>
   </SidebarContainer>
     </aside>
   )
