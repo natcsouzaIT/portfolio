@@ -1,11 +1,20 @@
+import Avatar from "../../components/Avatar"
+import Paragrafo from "../../components/parágrafo"
 import Titulo from "../../components/título"
+import { Descricao, BotaoTema, SidebarContainer } from "./styles";
 
 const Sidebar = () => {
   return (
   <aside>
-    <img src="https://github.com/natcsouzaIT.png" alt="Natália de Castro Souza" />
+  <SidebarContainer>
+    <Avatar />
     <Titulo fontSize={20}>Natália de Castro</Titulo>
-    <p>Desenvolvedora Front-End</p>
+    <Paragrafo tipo="secundário" fontSize={16}>
+      natcsouzaIT
+    </Paragrafo>
+    <Descricao tipo="principal" fontSize={12}>Desenvolvedora Front-End</Descricao>
+    <BotaoTema>Trocar tema</BotaoTema>
+  </SidebarContainer>
     </aside>
   )
 }
